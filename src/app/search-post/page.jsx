@@ -1,10 +1,12 @@
 import { SearchPosts } from "@/components/SearchPosts";
 
-export default async function SearchPostPage({ searchParams }) {
+export default async function SearchPage({ searchParams }) {
   const resolvedSearchParams = await searchParams;
+
   return (
-    <>
-      <SearchPosts currentPage={1} searchParams={resolvedSearchParams} />;
-    </>
+    <div>
+      <h1 className="text-3xl font-bold mb-4">Search Posts</h1>
+      <SearchPosts currentPage={1} searchParams={resolvedSearchParams} />
+    </div>
   );
 }

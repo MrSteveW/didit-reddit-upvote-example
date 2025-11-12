@@ -13,4 +13,4 @@
 ## New Features (Stretch)
 
 -[x] Added searchParams to sort posts by newest first or by most votes  
--[x] Added search box and wildcard search in either title or in post - I put this on a separate page as it was getting too much with the sorting
+-[x] Added search box and wildcard search in either title or in post - I put this on a separate page as it was getting too much with the sorting -[x] Added React-Toastify and set up a toast notification for a search (in Search posts page)
